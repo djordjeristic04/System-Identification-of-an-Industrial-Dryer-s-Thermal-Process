@@ -29,11 +29,11 @@ The estimated models were rigorously evaluated, yielding the following conclusio
 
 ## Repository Contents
 *   `*.m` files - 7 MATLAB scripts and functions used for data preprocessing, model estimation (Least Squares and RLS), and validation.
-*   `MIP Izvestaj.pdf` - The complete project report in Serbian, detailing the theoretical background, methodology, and comprehensive graphical result analysis.
+*   `Report.pdf` - The complete project report in Serbian, detailing the theoretical background, methodology, and comprehensive graphical result analysis.
 
 ## Authors
 Undergraduate students, University of Belgrade:
-*   Luka Bajić (2023/0144)
-*   Đorđe Ristić (2023/0064)
+*   Luka Bajić
+*   Đorđe Ristić
 
 **Mentor:** as. ms. Marko Vučković
