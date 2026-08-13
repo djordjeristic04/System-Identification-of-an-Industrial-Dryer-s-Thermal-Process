@@ -17,6 +17,10 @@ Various approaches were used to estimate the mathematical models of the thermal 
 *   **ARX Identification (Least Squares):** First and second-order discrete ARX models were estimated using both PRBS and bipolar square wave datasets.
 *   **Recursive Least Squares (RLS):** Recursive identification was performed with forgetting factors of $\rho = 0.995$, $\rho = 0.98$, and $\rho = 0.9$ to track parameter convergence over time.
 
+## How to Run
+
+Clone the repository, open MATLAB, and navigate to the project folder. Run `zadatak_1.m` first to estimate the continuous first-order model from the step response. Then run `zadatak_2a_PRBS.m` and `zadatak_2a_bipolarna_cetvrtka.m` to perform least-squares ARX identification for the PRBS and bipolar square wave excitations, respectively. Finally, run `zadatak_2b_PRBS.m` and `zadatak_2b_bipolarna_cetvrtka.m` to perform recursive least squares (RLS) identification with varying forgetting factors. The helper functions `napravi_phi.m` and `rlls.m` are called automatically by the main scripts and do not need to be run separately.
+
 ## Validation and Results
 The estimated models were rigorously evaluated, yielding the following conclusions:
 *   **Fit Percentages:** For the PRBS dataset, the first-order ARX model achieved a fit of 44.83%, while the second-order model achieved 44.84%. For the bipolar square wave dataset, the first-order model achieved 37.41%, and the second-order model achieved 40.08%.
